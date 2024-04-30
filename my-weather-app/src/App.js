@@ -27,7 +27,7 @@ function App() {
   };
   //call to the useEffect hook
   useEffect(() => {
-    weather_info('');
+    weather_info('Helsinki');
     }, []);
  //return contains the JSX that will be rendered by the App component
   return (
